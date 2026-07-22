@@ -13,7 +13,7 @@ jobs:
     # Sequence of tasks that will be executed as part of the job
     steps:
       - name: Checkout do repositório
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
     
       # Runs a single command using the runner shell
       - name: Executar o script
